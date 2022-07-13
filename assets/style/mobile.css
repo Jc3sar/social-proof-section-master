@@ -18,13 +18,20 @@ body{
   font-family: 'League Spartan', sans-serif;
 }
 
+
+
 /* Part one */
 .social-proof{
-  width: 100%;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.social-proof-rating{
+  display: flex;
+  flex-direction: column;
 }
 
 .social-proof__intro{
@@ -146,6 +153,13 @@ body{
   line-height: 20px;
 }
 
+
+.coment-field-desktop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
 .attribution{
